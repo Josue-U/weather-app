@@ -1,38 +1,155 @@
-.App {
+body{
+  background-image: url(./img/37217_sky_clouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-container{
+  
   text-align: center;
+  margin: 100px 400px;
+  padding: 100px;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow:0 0 2em gray ;
+  background-color: rgba(255, 255, 255, 0.151);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.search-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ vertical-align: middle;
+ 
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.search{
+  height: 22px;
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 30px;
+  outline: none;
+  
+}
+
+
+button{
+  border-radius: 30px;
+  
+}
+
+.material-icons{
+  background-color: rgba(255, 255, 255, 0.151);
+
+}
+
+.material-icons:hover{
+  cursor: pointer;
+  color: aqua;
+  
+}
+
+.city-temp{
+  font-size: 3rem;
+}
+
+sup{
+  font-size: 0.9rem;
+}
+
+.city-humidity{
+  margin: 32px 0px;
+  border-radius: 30px;
+  background-color: rgba(101, 237, 255, 0.507);
+  
+  
+ 
+}
+
+.city-wind{
+  margin: 32px 0px;
+  border-radius: 30px;
+  background-color: rgba(215, 250, 255, 0.507);
+}
+
+/* .city{
+  
+}
+
+.city-temp{
+ 
+}
+
+.info{
+
+} */
+
+@media only screen and (max-width:1260px) {
+  body{
+    background-image: url(./img/37217_sky_clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-container{
+  
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow:0 0 2em gray ;
+    background-color: rgba(255, 255, 255, 0.151);
+    width: 300px;
+    
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width:1180px) {
+  body{
+    background-image: url(./img/37217_sky_clouds.jpg);
+    background-repeat:repeat-y;
+    background-size: cover;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width:700px) {
+  body{
+    background-image: url(./img/37217_sky_clouds.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .main-container{
+  
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow:0 0 2em gray ;
+    background-color: rgba(255, 255, 255, 0.151);
+    width: 250px;
+    
+  }
+}
+
+@media only screen and (max-width:460px) {
+  body{
+    background-image: url(./img/37217_sky_clouds.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  .main-container{
+  
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow:0 0 2em gray ;
+    background-color: rgba(255, 255, 255, 0.151);
+    width: auto;
+    
+    
   }
 }
